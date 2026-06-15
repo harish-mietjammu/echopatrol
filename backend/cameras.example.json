@@ -1,0 +1,11 @@
+{
+  "_comment": "Copy this file to cameras.json and fill in your real RTSP URLs. cameras.json is gitignored because the URLs embed credentials. The rtsp_url NEVER leaves the backend — the dashboard only ever sees id/name/device_id and pulls audio through /api/v1/cameras/{id}/audio.",
+  "cameras": [
+    {
+      "id": "CAM_JAMMU_01",
+      "name": "Gandhi Nagar Junction",
+      "device_id": "EDGE_NODE_JAMMU_01",
+      "rtsp_url": "rtsp://USERNAME:PASSWORD@192.168.1.64:554/Streaming/Channels/101"
+    }
+  ]
+}

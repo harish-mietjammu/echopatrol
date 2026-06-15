@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.db
+*.db-journal
+
+# Node / frontend
+node_modules/
+dist/
+.vite/
+
+# Secrets & runtime data
+cameras.json
+backend/evidence/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
